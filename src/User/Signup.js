@@ -18,7 +18,7 @@ function SignUp() {
             password: password,
         };
 
-        const response = await fetch('http://localhost:8082/register',{
+        const response = await fetch('https://backend-fdur.onrender.com/register',{
             method:'POST',
             headers: {
                 'content-Type' : 'application/json',
