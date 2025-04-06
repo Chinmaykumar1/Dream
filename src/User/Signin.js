@@ -15,7 +15,7 @@ function SignIn({ setIsAuthenticated }) {
         };
 
         try {
-            const response = await fetch('https://backend-fdur.onrender.com/signin', {
+            const response = await fetch('https://backendfdur-production.up.railway.app/signin', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

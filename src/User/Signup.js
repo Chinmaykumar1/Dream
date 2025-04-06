@@ -18,7 +18,7 @@ function SignUp() {
             password: password,
         };
 
-        const response = await fetch('https://backend-fdur.onrender.com/register',{
+        const response = await fetch('https://backendfdur-production.up.railway.app/register',{
             method:'POST',
             headers: {
                 'content-Type' : 'application/json',
